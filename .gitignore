@@ -1,0 +1,57 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders to ignore
+bin/
+dist/
+vendor/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Build cache (remove this line if you're using Go 1.11+ with Go modules)
+$GOPATH/pkg/
+
+# Output of the go coverage tool
+*.cover
+
+# Dependency directories (remove if using Go 1.11+ modules)
+Godeps/
+
+# JetBrains IDEs
+.idea/
+
+# GoLand
+.goland/
+
+# Vscode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+
+# Sublime Text
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local configuration file
+.env
+.env.local
+
+# Logs and databases
+*.log
+*.db
+
+# Test artifacts
+_testmain.go
+
+# Go Module files (comment these out if you are using Go modules)
+go.sum
+go.mod
